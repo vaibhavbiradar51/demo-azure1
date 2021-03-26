@@ -1,11 +1,11 @@
 var today = new Date();
 
 var timer = function() {};
-timer.countdownDate = new Date();
+timer.countdownDate = new Date("Mar 26, 2021 02:04:25").getTime();
 
 // set date to 10 days in the future for testing purposes
-timer.countdownDate.setDate( timer.countdownDate.getDate() + 120);
-
+//timer.countdownDate.setDate( timer.countdownDate.getDate() + 120);
+//var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
 /*
 * Get thing started
 */
@@ -14,7 +14,7 @@ timer.init = function() {
   
   
   timer.getTimes();
-  setInterval(function() { timer.update() }, 1000);
+  const aa = setInterval(function() { timer.update() }, 1000);
 }
 
 /*
@@ -77,4 +77,9 @@ timer.getTimeRemaining = function( timeUnit, divisor ) {
 
 window.addEventListener("load", function() {
   timer.init();
+
+if (timer.difference < 0) {
+    clearInterval(aa);
+    document.getElementById("timer").innerHTML = "EXPIRED";
+  }
 });
