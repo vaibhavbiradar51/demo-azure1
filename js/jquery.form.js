@@ -10,7 +10,7 @@
  */
 /*global ActiveXObject */
 ;(function($) {
-"use strict";
+"use strict s";
 
 /*
     Usage Note:
