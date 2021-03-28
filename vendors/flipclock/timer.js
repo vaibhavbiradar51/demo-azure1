@@ -79,6 +79,7 @@ window.addEventListener("load", function() {
   timer.init();
 
 if (timer.difference < 0) {
+
     clearInterval(aa);
     document.getElementById("timer").innerHTML = "EXPIRED";
   }
