@@ -16,4 +16,3 @@ steps:
     includeRootFolder: false
     script: python -mhtmllib index.html
 - task: PublishBuildArtifacts@1
-
