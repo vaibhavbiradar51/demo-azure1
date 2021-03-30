@@ -4088,7 +4088,7 @@ h6 {
 .welcome_text h3 {
   color: #222222;
   font-size: 36px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   margin-bottom: 30px;
 }
 
