@@ -1964,15 +1964,15 @@ button:focus {
 .direction-r .flag:before {
   position: absolute;
   top: 50%;
-  right: -40px;
+  right: -30px;
   content: " ";
   display: block;
   width: 12px;
   height: 12px;
   margin-top: -10px;
-  background: #fff;
+  
   border-radius: 10px;
-  border: 4px solid rgb(255, 80, 80);
+  
   z-index: 10;
 }
 
