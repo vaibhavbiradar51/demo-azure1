@@ -1,7 +1,7 @@
 var today = new Date();
 
 var timer = function() {};
-timer.countdownDate = new Date("Jul 26, 2021 02:04:25").getTime();
+timer.countdownDate = new Date("Sept 23, 2021 00:00:00").getTime();
 
 // set date to 10 days in the future for testing purposes
 //timer.countdownDate.setDate( timer.countdownDate.getDate() + 120);
