@@ -1964,7 +1964,7 @@ button:focus {
 .direction-r .flag:before {
   position: absolute;
   top: 50%;
-  right: -30px;
+  right: -px;
   content: " ";
   display: block;
   width: 12px;
